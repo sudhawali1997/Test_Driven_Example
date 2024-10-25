@@ -10,13 +10,13 @@ class TestDrivenExampleApplicationTests {
 
 	@Test
 	public void EmptyString() {
-		assertEquals(0, Calculator.add(" "));
+		assertEquals(0, Calculator.add(""));
 
 	}
 	
 	@Test
 	public void addOneString() {
-		assertEquals(1, Character.add("1"));
+		assertEquals(1, Calculator.add("1"));
 	}
 
 }
