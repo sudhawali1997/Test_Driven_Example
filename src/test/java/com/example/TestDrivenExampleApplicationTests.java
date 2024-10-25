@@ -9,10 +9,9 @@ import org.springframework.boot.test.context.SpringBootTest;
 class TestDrivenExampleApplicationTests {
 
 	@Test
-	void contextLoads() {
 	public void EmptyString() {
-		assertEquals("0", Calculator.add(" "));
-			
-		}
-	
+		assertEquals(0, Calculator.add(" "));
+
+	}
+
 }
