@@ -18,5 +18,10 @@ class TestDrivenExampleApplicationTests {
 	public void addOneString() {
 		assertEquals(1, Calculator.add("1"));
 	}
+	
+	@Test
+	public void addTwoNumber() {
+		assertEquals(2, Calculator.add("1,1"));
+	}
 
 }
