@@ -13,5 +13,10 @@ class TestDrivenExampleApplicationTests {
 		assertEquals(0, Calculator.add(" "));
 
 	}
+	
+	@Test
+	public void addOneString() {
+		assertEquals(1, Character.add("1"));
+	}
 
 }
