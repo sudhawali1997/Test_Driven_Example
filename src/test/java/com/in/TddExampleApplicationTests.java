@@ -10,7 +10,7 @@ class TddExampleApplicationTests {
 
 	@Test
 	public void add () {
-		assertEquals(0,Calculator.add(" "));
+	assertEquals(0,Calculator.add(""));
 	
 	}
 
